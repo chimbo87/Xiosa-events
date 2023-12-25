@@ -11,58 +11,291 @@
   background-size: cover;
 }
 #reviewCard01 {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../../assets/banner03.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  #reviewCard02 {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.776), rgba(0, 0, 0, 0.5)),
-      url("../../assets/banner04.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  #reviewCard03 {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../../assets/banner01.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-#reviewCardInner{
-    max-width: 900px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/banner03.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#reviewCardInner h1{
-    color: antiquewhite;
+#reviewCard02 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.776), rgba(0, 0, 0, 0.5)),
+    url("../../assets/banner04.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#reviewCard03 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.934), rgba(0, 0, 0, 0.5)),
+    url("../../assets/banner01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#reviewCardInner {
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#reviewCardInner h1 {
+  background: -webkit-linear-gradient(0deg, #3d74a0, #d29968);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  text-align: center;
+}
+#reviewCardInner p {
+  color: antiquewhite;
+}
+#reviewCardInner button {
+  margin-top: 20px;
+  padding: 12px 40px;
+  border: none;
+  background-color: antiquewhite;
+  color: #22315e;
+  border-radius: 4px;
+}
+#homePage {
+  position: relative;
+  top: -100px;
+  background-color: #e6e0e0;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+#homeAddressCard {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeAddressCard {
+  border-left: 1px solid rgba(250, 235, 215, 0.249);
+}
+#homePageBox {
+  padding: 40px 0px;
+  background-color: #22315e;
+}
+#homeAddressCardIcon i {
+  color: antiquewhite;
+  font-size: 25px;
+  margin-right: 10px;
+  border: 1px solid #f7d6ba;
+  border-radius: 50%;
+  padding: 8px;
+}
+#homeAddressCardText small {
+  color: #f7d6ba;
+}
+#homeAddressCardText small i {
+  font-size: 20px;
+  margin: 0px 8px;
+}
+#homeMessage {
+  margin-top: 15px;
+}
+#homeMessage h4 {
+  color: #22315e;
+  text-align: center;
+  justify-content: center;
+  font-weight: 700;
+}
+#homePhotoCard {
+  width: 100%;
+  height: 250px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+#homePhotoCard img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#homePhotoCard img:hover {
+  filter: brightness(50%);
+}
+#offer {
+  margin-top: 20px;
+  padding: 20px 10px;
+  background-image: linear-gradient(to right,#3d73a050, #fad0a135);
+}
+#offer h4 {
+
+  color: #22315e;
+  text-align: center;
+  justify-content: center;
+  font-weight: 700;
+}
+#offerCardBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#offerCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #22315e54;
+  /* border-style: solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #3d74a0, #d29968); */
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin-top: 15px;
+  box-shadow: 2px 2px 10px grey;
+  background-color: #f5f5f5;
+}
+#offerCard h4 {
+  background: -webkit-linear-gradient(0deg, #3d74a0, #d29968);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+#offerCard h5 {
     font-weight: 700;
-    text-align: center;
+    background: -webkit-linear-gradient(0deg, #d29968,#3d74a0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-#reviewCardInner button{
-    margin-top: 20px;
-    padding: 12px 40px;
-    border: none;
-    background-color: antiquewhite;
-    color: #22315e;
+#newsLetter{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#newsLetterInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+}
+#newsLetterInput input{
+    width: 100%;
+    height: inherit;
+    border: 1px solid gray;
     border-radius: 4px;
+    padding-left: 10px;
+}
+#newsLetterInput input:focus{
+    outline: none;
+}
+#newsLetterInput button{
+    padding: 8px 35px;
+    margin-left: 10px;
+    border-radius: 4px;
+    background-color: #22315e;
+    border: none;
+    color: antiquewhite;
+}
+#homeContact{
+    margin-top: 15px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#homeContact h4{
+    text-align: center;
+    color: #22315e;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+#homeContactForm{
+    background-color: #f5f5f5;
+    height: 100%;
+    padding-bottom: 25px;
+    margin-top: 0px;
+}
+#homeContactForm input{
+ border: 2px solid #22315e;
+ border-radius: 0px;
+ background-color: #f5f5f5;
+}
+#homeContactForm input:focus{
+    outline: none;
+}
+#homeContactForm textarea{
+    border: 2px solid #22315e;
+    border-radius: 0px;
+    background-color: #f5f5f5;
+   }
+   #homeContactForm button{
+    width: 100%;
+    background-color: #22315e;
+    color: antiquewhite;
+   }
+#homeContactCard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #22315e;
+    height: 100%;
+    /* margin-top: 15px; */
+    padding: 15px 0px;
+}
+#homeContactCardInfor{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+#homeContactCardIcon{
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#homeContactCardIcon i{
+    color: #d29968;
+    font-size: 25px;
+    padding: 8px;
+    border: 1px solid antiquewhite;
+    border-radius: 50%;
+}
+#homeContactCardIText{
+    color: #d29968;
+}
+#homeContactSocialLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+#homeContactSocialLink i{
+    color: antiquewhite;
+    font-size: 25px;
+    margin: 0px 8px;
+    cursor: pointer;
+}
+#homeContactSocialLink i:hover{
+    color: #d29968;
+    rotate: 20deg;
 }

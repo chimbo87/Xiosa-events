@@ -5,7 +5,7 @@
     right: 0%;
     left: 0%;
     z-index: 100;
-    background-color: #464646d6;
+    background-color:  #22315e;
 }
 .nav-item{
     margin: 0px 10px;
@@ -33,10 +33,18 @@
 }
 
 #navSocialBtn button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 10px 25px;
-    border: none;
+    border: 1px solid antiquewhite;
     border-radius: 4px;
     color: antiquewhite;
     font-size: 16px;
     background-color:  #22315e;
+}
+#navSocialBtn button i{
+    color: blanchedalmond;
+    font-size: 20px;
+    margin-left: 5px;
 }
