@@ -1,0 +1,122 @@
+#theAboutPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.646), #b19a9ab3), url("../../assets/banner04.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+#theAboutPage h2{
+    color: antiquewhite;
+    font-weight: 700;
+}
+#aboutBox{
+    margin-top: 20px;
+}
+#aboutCard{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+#aboutCard h4{
+    color: #22315e;
+    font-weight: 700;
+}
+#aboutCard img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 4px;
+}
+#aboutTeam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#aboutTeam h4{
+    color: #22315e;
+    font-weight: 700;
+}
+#aboutTeamPhoto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#aboutTeamPhoto img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    border-radius: 4px;
+}
+#aboutVision{
+    margin-top: 20px;
+}
+#aboutVisionCard{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+#aboutVisionCard h4{
+    color: #22315e;
+    font-weight: 700;
+}
+#aboutVisionCard p{
+    margin-top: 15px;
+    line-height: 2rem;
+    font-size: 22px;
+}
+#aboutVisionCard img{
+    width: 100%;
+    height: inherit;
+    object-fit: contain;
+    border-radius: 4px;
+}
+#reviewsAbout{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #reviewsAbout h4 {
+    text-align: center;
+    color: #22315e;
+    font-weight: 700;
+  }
+  #reviewAboutCard {
+    margin-top: 15px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-image: linear-gradient(to right, #cb822f64, #3d73a089);
+    border-radius: 20px;
+  }
+  #reviewAboutCard img {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  #reviewAboutCard p {
+    max-width: 550px;
+    line-height: 1.8rem;
+    margin-top: 10px;
+    color: antiquewhite;
+  }
+  #reviewAboutCard p i {
+    color: #cb822f;
+    font-size: 20px;
+  }

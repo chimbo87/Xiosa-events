@@ -6,6 +6,7 @@ import Banner03 from "../../assets/banner03.jpg";
 import Banner04 from "../../assets/banner04.jpg";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+import Footer from "../../components/footer/Footer";
 
 function Home() {
   const handleDragStart = (e) => e.preventDefault();
@@ -224,7 +225,7 @@ function Home() {
           </div>
         </div>
         <div id="homeContact">
-            {/* <h4>Get InTouch With Us</h4> */}
+          {/* <h4>Get InTouch With Us</h4> */}
           <div class="row">
             <div class="col-lg-8 col-md-4">
               {" "}
@@ -326,6 +327,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

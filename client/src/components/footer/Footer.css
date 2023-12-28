@@ -1,0 +1,28 @@
+#footerPage{
+    background-color: #22315e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#footerCard h4{
+    color: antiquewhite;
+    font-weight: 700;
+}
+#footerCard p{
+    color: blanchedalmond;
+    line-height: 2rem;
+}
+#footerCard ul li{
+    color: blanchedalmond;
+    line-height: 2rem;
+}
+#footerRightCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #faebd74c;
+}
+#footerRightCard p{
+    color: #d29968;
+}
