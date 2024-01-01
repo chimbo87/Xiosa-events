@@ -8,11 +8,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 0px 0px 10px rgb(54, 47, 47);
    
 }
 #theAboutPage h2{
-    color: antiquewhite;
+    background: -webkit-linear-gradient(0deg, antiquewhite, #d29968);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 700;
+    text-align: start;
+    line-height: 3.4rem;
+    font-size: 40px;
 }
 #aboutBox{
     margin-top: 20px;

@@ -7,8 +7,10 @@ import Banner04 from "../../assets/banner04.jpg";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Footer from "../../components/footer/Footer";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
   const handleDragStart = (e) => e.preventDefault();
   const items = [
     <div id="reviewCard">
@@ -20,7 +22,13 @@ function Home() {
           cherished memories with exquisite event designs for weddings,
           conferences, and more
         </p>
-        <button>Our Work</button>
+        <button
+          onClick={() => {
+            navigate("/projects");
+          }}
+        >
+          Our Work
+        </button>
       </div>
     </div>,
     <div id="reviewCard01">
@@ -32,7 +40,13 @@ function Home() {
           cherished memories with exquisite event designs for weddings,
           conferences, and more
         </p>
-        <button>Our Work</button>
+        <button
+          onClick={() => {
+            navigate("/projects");
+          }}
+        >
+          Our Work
+        </button>
       </div>
     </div>,
     <div id="reviewCard02">
@@ -44,13 +58,13 @@ function Home() {
           cherished memories with exquisite event designs for weddings,
           conferences, and more
         </p>
-        <button>Our Work</button>
-      </div>
-    </div>,
-    <div id="reviewCard03">
-      <div id="reviewCardInner">
-        <h1>Celebrate Moments, Elevate Spaces.</h1>
-        <button>Our Work</button>
+        <button
+          onClick={() => {
+            navigate("/projects");
+          }}
+        >
+          Our Work
+        </button>
       </div>
     </div>,
   ];

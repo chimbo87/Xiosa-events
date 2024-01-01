@@ -7,7 +7,9 @@ import graduation from "../../assets/certfy.png";
 import church from "../../assets/church (2).png";
 import Catering from "../../assets/food.png";
 import Footer from "../../components/footer/Footer";
+import { useNavigate } from "react-router-dom";
 function Service() {
+  const navigate = useNavigate();
   return (
     <>
       <div className="container-fluid" id="theServicePage">
@@ -95,7 +97,9 @@ function Service() {
             Creating Memories<br></br>
             Welcome to Our Event Decor Wonderland!
           </h2>
-          <button>Become A Client</button>
+          <button    onClick={() => {
+            navigate("/contact");
+          }}>Become A Client</button>
         </div>
         <div id="whyUs">
           <div class="row">
