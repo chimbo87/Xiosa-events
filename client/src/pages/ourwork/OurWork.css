@@ -21,23 +21,34 @@
   font-size: 40px;
 }
 #ourWorkBtnsBox {
-  margin-top: 20px;
-  background-color: #22315e;
-  padding: 20px 20px;
+ margin-top: 20px;
+ margin-bottom: 20px;
 }
 
 #ourWorkBtns button {
-  width: 150px;
-  padding: 8px 0px;
+  width: 140px;
+  padding: 8px 2px;
   border: 1px solid grey;
   border-radius: 4px;
 }
+#ourWorkBtns button:hover {
+  background-color: #22315e;
+  color: antiquewhite;
+}
+#ourWorkBtns button.active {
+  background-color: #22315e;
+ color: antiquewhite;
+}
 #ourWorkBtns {
   display: flex;
+  align-items: center;
+  justify-content: center;
   overflow-x: auto;
   white-space: nowrap;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  background-color: gainsboro;
+padding: 10px 10px;
 }
 
 #ourWorkBtns::-webkit-scrollbar {
@@ -63,7 +74,51 @@
     margin-bottom: 5px;
   }
 }
-
+#workCardsWrap{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+  background-color: gainsboro;
+  border-radius: 4px;
+}
+#workCardsWrap img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 4px 4px 0px 0px;
+}
+#workCardsWrap img:hover{
+  filter: brightness(50%);
+}
+#workCardsWrap h4{
+  font-weight: 700;
+  color: #22315e;
+  padding-left: 8px;
+}
+#workCardsWrap p{
+  font-weight: 700;
+  padding-left: 8px;
+}
+#ourWorkNextBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#ourWorkNextBtn button{
+  padding: 8px 25px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  color: #22315e;
+  background-color: gainsboro;
+}
+#ourWorkNextBtn button:hover{
+  color: #d29968;
+}
 /* #ourWorkPage{
     display: flex;
     align-items: start;

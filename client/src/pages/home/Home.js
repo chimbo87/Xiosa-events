@@ -1,9 +1,9 @@
 import React from "react";
 import "./Home.css";
-import Banner01 from "../../assets/banner01.jpg";
+import Banner01 from "../../assets/xiosa01.jpeg";
 import Banner02 from "../../assets/banner02.jpg";
-import Banner03 from "../../assets/banner03.jpg";
-import Banner04 from "../../assets/banner04.jpg";
+import Banner03 from "../../assets/xiosa03.jpeg";
+import Banner04 from "../../assets/xiosa04.jpeg";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Footer from "../../components/footer/Footer";
